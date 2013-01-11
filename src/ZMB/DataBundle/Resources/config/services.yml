@@ -1,0 +1,7 @@
+parameters:
+#    zmb_data.example.class: ZMB\DataBundle\Example
+
+services:
+#    zmb_data.example:
+#        class: %zmb_data.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,12 @@
+data:
+    pattern:  /data/{name}
+    defaults: { _controller: ZMBDataBundle:Default:index }
+
+data_add:
+    pattern:  /data/create/
+    defaults: {_controller: ZMBDataBundle:Default:create}
+
+data_show:
+    pattern:  /data/show/
+    defaults: {_controller: ZMBDataBundle:Default:show}
+    
